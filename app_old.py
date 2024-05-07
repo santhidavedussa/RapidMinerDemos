@@ -27,13 +27,13 @@ if "messages" not in st.session_state.keys(): # Initialize the chat messages his
         {"role": "assistant", "content": "Mention your queries!"}
     ]
   
-api_key=st.secrets.pinecone_api_key
-openai_api_key=st.secrets.openai_api_key
+#api_key=st.secrets.pinecone_api_key
+#openai_api_key=st.secrets.openai_api_key
 
-client=OpenAI(api_key=openai_api_key)
+#client=OpenAI(api_key=openai_api_key)
 
-pc = Pinecone(api_key=api_key)
-index=pc.Index('genai-petro4')
+#pc = Pinecone(api_key=api_key)
+#index=pc.Index('genai-petro4')
 supporting_data=pd.read_csv('./supporting_data_website.csv')
 
 url = "http://172.206.0.44/rts/api/v1/services/newupdated/pinecone_version_streamlit"
