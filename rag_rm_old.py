@@ -56,9 +56,9 @@ if "messages" not in st.session_state.keys(): # Initialize the chat messages his
 
 # url= "http://172.178.125.127/rts/api/v1/services/sabic_sitedata/rag_based_openai_context_prompt"
 
-# url = url
-# username = 'demo_rapidminer'
-# password = 'demo_rapidminer'
+url = "http://4.227.155.46/rts/api/v1/services/newupdated/pinecone_version_streamlit"
+username = 'soothsayeranalytics'
+password = 'Analytics@2024'
 
 
 @st.cache_resource
